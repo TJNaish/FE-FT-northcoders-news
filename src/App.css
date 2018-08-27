@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #22252c;
+  color: #ffffff;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  font-size: 25px;
+}
+.navbar div {
+  max-height: 100px;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.N {
+  color: #c3002f;
+}
+
+.loginbox {
+  margin-left: auto;
+  padding-right: 15px;
+  margin-bottom: 5px;
+}
+
+.link,
+.titleLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+.link:hover {
+  background-color: #000000;
+}
+
+.articlelink {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+.articlelink:hover {
+  background-color: #aaaaaa;
+}
+
+.title {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.articleInfoBox {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.articleInfo {
+  display: block;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.articleTextTitle {
+  font-size: 24px;
+}
+
+.articleTextTitle a:hover,
+.articleTextInfo a:hover {
+  background-color: #111;
+}
+
+.articleTextInfo {
+  font-size: 14px;
+}
+
+.Coding,
+.Football,
+.Cooking {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 25px;
+}
+.Coding a {
+  text-decoration: none;
+  color: white;
+}
+.Football a {
+  text-decoration: none;
+  color: white;
+}
+
+.Cooking a {
+  text-decoration: none;
+  color: white;
+}
+
+.Coding {
+  background-color: #007bff;
+  color: white;
+}
+
+.Football {
+  background-color: #c3002f;
+  color: white;
+}
+
+.Cooking {
+  background-color: #28a745;
+  color: white;
+}
+.topicbar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+.topicbar li a {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #22252c;
+  color: white;
+}
+
+.topicbar li a:hover {
+  background-color: #111;
+}
+.articleBox {
+  display: flex;
+  background-color: #f3f3f3;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+.mainArticle {
+  display: flex;
+  background-color: #f3f3f3;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 75%;
+}
+.arrow {
+  cursor: pointer;
+  width: 15px;
+}
+
+.commentbox {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 75%;
+  height: 100px;
+  word-wrap: break-word;
+}
+
+.commentcontainer {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 25px;
+  width: 95%;
+}
+
+.comment {
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e3e3e3;
+}
+
+.commentInfo {
+  color: #222222;
+}
+
+.submitButton {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+}
