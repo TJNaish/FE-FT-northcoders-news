@@ -11,8 +11,8 @@ import axios from "axios";
 
 class App extends Component {
   state = {
-    currentUser: "",
-    currentUserId: "",
+    currentUser: "jessjelly",
+    currentUserId: "5b6c41d56e3ed13c734e3183",
     articles: [],
     userLoginField: "",
     userPasswordField: "",
